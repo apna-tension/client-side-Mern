@@ -34,7 +34,7 @@ export const AuthProvider = ({ children }) => {
 
   const userAuthentication = async () => {
     try {
-      const response = await fetch("http://localhost:5000/auth/user", 
+      const response = await fetch("https://backend-mern-cun5.onrender.com/auth/user", 
       {
         method: "GET",
         headers: {
@@ -61,7 +61,7 @@ export const AuthProvider = ({ children }) => {
   // fatching services from the server 
   const serviceData = async () => {
     try {
-     const response = await fetch("http://localhost:5000/service", {
+     const response = await fetch("https://backend-mern-cun5.onrender.com/service", {
         method: "GET",
       });
 
@@ -84,7 +84,7 @@ export const AuthProvider = ({ children }) => {
   // fatching admin data from server (user)
   const adminUserData = async () => {
     try {
-      const response = await fetch("http://localhost:5000/admin/users", {
+      const response = await fetch("https://backend-mern-cun5.onrender.com/admin/users", {
         method: "GET",
       });
 
@@ -101,7 +101,7 @@ export const AuthProvider = ({ children }) => {
   // fatching admin data from server (contact)
   const adminContactData = async () => {
     try {
-      const response = await fetch("http://localhost:5000/admin/contacts", {
+      const response = await fetch("https://backend-mern-cun5.onrender.com/admin/contacts", {
         method: "GET",
       });
 

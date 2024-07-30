@@ -41,7 +41,7 @@ const Contact = () => {
     e.preventDefault();
     console.log(conatct);
     try {
-      const res = await fetch("http://localhost:5000/contact", {
+      const res = await fetch("https://backend-mern-cun5.onrender.com/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
