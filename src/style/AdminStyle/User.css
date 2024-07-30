@@ -1,0 +1,45 @@
+.user-page {
+    padding : 20px;
+    padding-top: 100px; /* Adjust this value according to your navbar's height */
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    margin: 0;
+}
+/*  center the h2 heading */
+.user-page h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.user-table-container {
+    overflow-x: auto;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+    padding: 10px;
+    border: 1px solid #555; /* Darker border color */
+}
+
+.user-table th {
+    background-color: #555; /* Darker background color for headers */
+}
+
+.edit-btn, .delete-btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #ffa500; /* Orange color */
+    color: #fff; /* Light text color */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    background-color: #ff7f00; /* Darker orange color on hover */
+}

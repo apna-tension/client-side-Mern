@@ -1,0 +1,73 @@
+/* login.css */
+
+.mainContact {
+  background-color: #333;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  z-index: 1001;
+    /* margin-top: 70px; */
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #444; /* Dark background color within the container */
+}
+
+.login-form-container {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive Styling */
+
+@media only screen and (max-width: 768px) {
+  .contact-container {
+    padding: 15px;
+    margin-top: 150px;
+  }
+  .mainContact {
+    z-index: 1001;
+  }
+  input {
+    margin-top: 10px;
+  }
+}
